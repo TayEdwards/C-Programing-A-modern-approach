@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main(){
-    float userInput = 10.0;
-    float exponent = 3.0;
-    float radius = pow(userInput,exponent);
-    float pi = 3.14;
-    float v = 4.0/3.0;
+    float radius = 10.0;
+    float pi = 3.14159;
+    float result = (4.0f/3.0f) * pi * powf(radius,3);
 
-    printf("%d", (v*pi*radius));
+    printf("the volume of your sphere is %f", result);
+
+    return 0;
 }
