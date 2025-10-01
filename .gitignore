@@ -4,4 +4,6 @@
 *.exe
 a.out
 
+*.json
+
 build/
